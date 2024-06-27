@@ -232,6 +232,9 @@ which is a shortcut for:
 ```commandline
 rasa run actions
 ```
+```commandline
+rasa run -m models --enable-api --cors "*" & rasa run actions &
+```
 
 Once the action server is started, you have two options to interact with your trained
 assistant:
